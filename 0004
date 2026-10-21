@@ -1,0 +1,4 @@
+a, b = map(int, input().split(" "))
+C = (a+b)
+S = (a*b)
+print(C, S)

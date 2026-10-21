@@ -1,0 +1,7 @@
+from math import sqrt
+a,b,c = map(int, input().split())
+CV=a+b+c
+p=CV/2
+S= sqrt(p*(p-a)*(p-b)*(p-c))
+R = round((a*b*c)/(4*S),3)
+print(R)

@@ -1,0 +1,10 @@
+tmp = int(input())
+a= tmp // 100
+b= (tmp - a*100) // 10
+c= tmp - a*100 - b*10
+fir = a*10+b
+end = b*10 + c
+if end > 10:
+    print(fir, end)
+elif end < 10:
+    print(str(fir) + " 0%d" % end)

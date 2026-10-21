@@ -1,0 +1,4 @@
+r = int(input())
+C = round(r*2*3.14, 3)
+S = round(r*r*3.12, 3)
+print(C,S)

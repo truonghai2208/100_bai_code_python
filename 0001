@@ -1,0 +1,4 @@
+canh = int(input())
+C = canh*4
+S = canh**2
+print(C,S)

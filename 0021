@@ -1,0 +1,7 @@
+s= int(input())
+if s<=1:
+    print(s*12000)
+elif (s>2) and (s<=30):
+    print(12000+(s-1)*10000)
+else:
+    print(12000+29*10000+(s-30)*9000)

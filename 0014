@@ -1,0 +1,9 @@
+age = int(input())
+if (age>0) and (age<=11):
+    print("Thieu nhi")
+elif (age>11) and (age<=25):
+    print("Thieu nien")
+elif (age>25) and (age<=50):
+    print("Trung nien")
+else:
+    print("Lao nien")

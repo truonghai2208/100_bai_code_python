@@ -1,0 +1,6 @@
+from math import sqrt
+a,b,c = map(int, input().split())
+CV=round(a+b+c, 1)
+p=CV/2
+S= round(sqrt(p*(p-a)*(p-b)*(p-c)),3)
+print(CV, S)

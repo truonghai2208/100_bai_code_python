@@ -1,0 +1,9 @@
+num=input()
+sum = 0
+for char in num:
+    sum = sum + int(char)
+print(sum%10)
+if (sum%10)==9:
+    print("may man")
+else:
+    print("chua may man")

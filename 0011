@@ -1,0 +1,5 @@
+tmp = int(input())
+h = tmp // 3600
+m = (tmp-h*3600) // 60
+sec = tmp - h*3600 - m*60
+print(h ,":" , m ,":", sec)

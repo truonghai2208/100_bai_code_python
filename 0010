@@ -1,0 +1,4 @@
+T,HS = map(int, input().split())
+so_tao = T // HS
+du = T % HS
+print(so_tao, du)

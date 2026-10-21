@@ -1,0 +1,6 @@
+tien = int(input())
+nam = tien//5000
+tien = tien - nam*5000
+hai = tien//2000
+tien = tien - hai*2000
+print(nam, hai, int(tien/1000))
